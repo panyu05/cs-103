@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    width: 80vw;
+    margin: auto;
+    height: 100vh;
+    background-color: #4091bf;
+    text-align: center;
+}
+
+label, button, #input{
+    font: calc(6px + 1vw) "Andale Mono", "DejaVu Sans Mono", monospace;
+}

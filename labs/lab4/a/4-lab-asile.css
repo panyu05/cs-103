@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+
+div{
+    width:80%;
+    margin:auto;
+    background-color:lightpink;
+    text-align:center;
+}
+
+header{
+    background-color:deeppink;
+}
+
+header h1{
+    color:white;
+}
+
+nav{
+    background-color:hotpink;
+    padding-left:0;
+}
+
+nav li{
+    display:inline;
+    margin: 2%;
+}
+
+main{
+    background-color:lightblue;
+}
+
+main p{
+    color:darkblue;
+    border:dodgerblue 3px solid;
+}
+
+footer{
+    background-color:hotpink;
+}

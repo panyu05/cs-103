@@ -1,0 +1,63 @@
+*{margin: 0}
+
+#page-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+p {
+    background-color: #F5EEE6;
+    color: #85586F;
+}
+
+h1, h3 {
+    font-variant: small-caps;
+}
+
+#ingredients {
+    border: #944E63 3px solid;
+}
+
+#preparation {
+    margin: 5px;
+}
+
+#sauce {
+    color: #944E63;
+}
+
+#rice {
+    color: #B47B84;
+}
+
+#eggs {
+    color: #CAA6A6;
+}
+
+#bacon {
+    color: #E0CCBE;
+}
+
+#one {
+    background-color: #789461
+}
+
+#two {
+    background-color: #99BC85
+}
+
+#three {
+    background-color: #BFD8AF
+}
+
+#four {
+    background-color: #D4E7C5
+}
+
+#five {
+    background-color: #E1F0DA
+}
+
+.name {
+    color: firebrick;
+}

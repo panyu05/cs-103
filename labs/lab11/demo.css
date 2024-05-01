@@ -1,0 +1,11 @@
+#page-wrapper {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#image {
+    max-width: 75%;
+    margin: auto;
+}

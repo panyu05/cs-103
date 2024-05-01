@@ -1,0 +1,127 @@
+/*The Credits page's css was created by Yu Pan*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#page-wrapper {
+    width: 80vw;
+    margin: auto;
+    background-color: #DDECE4;
+}
+
+header {
+    background-color: #459D43;
+    color: white;
+    text-align: left;
+    font-size:calc(10px + 1vw);
+    padding: 2%;
+}
+
+header h1 {
+    font-family: "Lucida Handwriting", cursive;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150vh;
+}
+
+#bar {
+    width: 30%;
+    padding-left:0;
+    background-color: #77CD94;
+}
+
+nav ul {
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.page {
+    display:block;
+    border: 2px solid white;
+    width: 50%;
+    margin: 10% auto;
+    padding: 4%;
+    /*background-color: #5356FF;*/
+    background-color: #DDECE4;
+    font-size: calc(5px + 1vw);
+    font-weight: bold;
+}
+
+.link {
+    color: #459D43;
+    text-decoration: none;
+}
+
+main {
+    width: 70%;
+    height: 150vh; /*may need to make more depending on the pictures and if so then add this to the media queries*/
+    background-color: #DDECE4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+main h1 {
+    padding: 1%;
+    font-size:calc(15px + 2vw);
+    text-align: center;
+    color: #459D43;
+}
+
+main p{
+    margin: 3%;
+    font:calc(5px + 1vw) "Gill Sans", "Noto Sans", sans-serif;;
+}
+
+footer {
+    background-color: #459D43;
+    padding: 2%;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 750px) {
+    header, footer {
+        text-align: center;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    #bar {
+        width: 100%;
+    }
+
+    nav ul {
+        padding: 4%;
+    }
+
+    .page {
+        margin: 2%;
+        padding: 2%;
+        display: inline;
+    }
+
+    main {
+        width: 100%;
+    }
+}

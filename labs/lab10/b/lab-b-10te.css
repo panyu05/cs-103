@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    width:80%;
+    margin:auto;
+    text-align: center;
+    height: 100vh;
+    background-image:url("src/lab10b.jpeg");
+}
+
+h1 {
+    padding-top: 10%;
+    font: bold calc(25px + 1vw) "Times New Roman", Didot, Georgia, serif;
+    color: #b33b72;
+}
+
+label, button{
+    font: calc(6px + 1vw) "Andale Mono", "DejaVu Sans Mono", monospace;
+    margin-top: 5%;
+}
+
+button {
+    background-color: white;
+    border: 1px black solid;
+}
+
+#input-1, #input-2 {
+    font: calc(6px + 1vw) "Times New Roman", Didot, Georgia, serif;
+    margin-top: 5%;
+}
+
+h2 {
+    padding-top: 5%;
+    font: bold calc(15px + 1vw) "Times New Roman", Didot, Georgia, serif;
+    color: #b33b72;
+}
+
+#output {
+    font: calc(10px + 1vw) "Times New Roman", Didot, Georgia, serif;
+    margin: 3% 40%;
+    padding: 2%;
+    border: 1px black solid;
+    background-color: white;
+}

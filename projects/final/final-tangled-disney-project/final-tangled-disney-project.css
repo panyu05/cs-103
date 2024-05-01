@@ -1,0 +1,206 @@
+/*The Tangled page's css was created by Christina Son*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#page-wrapper{
+    width: 80vw;
+    margin:auto;
+}
+
+
+header {
+    text-align: left;
+    background-color: rgb(255, 205, 234);
+    margin:0;
+    font-size:calc(10px + 1vw);
+    padding:3%;
+
+
+}
+
+
+header h1 {
+    color: rgb(134, 70, 156);
+    font:calc(10px + 2vw) "Lucida Handwriting", cursive;
+}
+
+
+header p{
+    color: rgb(188, 127, 205);
+    font-size:calc(20px + 3vw);
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav{
+    background-color: rgb(188, 127, 205);
+    width:30%;
+    padding:5%;
+
+
+}
+
+
+nav ul{
+    list-style: none;
+    font-size:calc(5px + 2vw);
+}
+
+
+nav li{
+    border: lemonchiffon 5px solid;
+    padding:10%;
+    margin: 10% auto;
+    text-align: center;
+    color:rgb(188, 127, 205);
+    font-size:calc(5px + 1vw);
+    background-color: rgb(255, 205, 234);
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+.page{
+    margin-left:0;
+
+
+}
+
+
+
+
+main{
+    width:70%;
+    text-align: center;
+    background-color: lemonchiffon;
+}
+
+
+main h3{
+    color:rgb(134, 70, 156);
+    font:calc(10px + 2vw) "Lucida Handwriting", cursive;
+}
+
+
+main p{
+    margin:5%;
+    font-size:calc(7px + 1vw);
+    font-family: "Gill Sans", "Noto Sans", sans-serif;
+    color: rgb(134, 70, 156);
+}
+
+
+main h2{
+    font:calc(10px + 2vw) "Lucida Handwriting", cursive;
+    color: rgb(134, 70, 156);
+}
+
+
+img{
+    max-width:60%;
+
+
+}
+
+
+label{
+    font-size:calc(10px + 1vw);
+    color: rgb(134, 70, 156);
+    margin:2%;
+}
+
+
+input{
+    border:1px rgb(134, 70, 156) solid;
+    background-color:rgb(255, 205, 234);
+    font-size:calc(10px + 1vw);
+    color: rgb(134, 70, 156);
+}
+
+
+button{
+    border:1px rgb(134, 70, 156) solid;
+    font-size:calc(10px + 1vw);
+    color: rgb(134, 70, 156);
+    background-color:rgb(255, 205, 234);
+    margin:2%;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(255, 205, 234);
+    padding:5%;
+    font-size:calc(2px + 1vw);
+    color:rgb(134, 70, 156);
+}
+
+
+footer a{
+    color:rgb(134, 70, 156)
+}
+
+
+img{
+    display: block;
+    margin-left: 25%;
+}
+
+.character-image {
+    margin-top: 10%;
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    header {
+        text-align: center;
+    }
+
+
+    nav ul{
+        text-align: center;
+        margin: auto;
+    }
+
+
+    nav li {
+        text-align: center;
+        padding: 1%;
+        width: 15%;
+        margin: auto;
+        display:inline;
+        font-size: calc(8px + 1vw);
+    }
+
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    nav {
+        width: 100%;
+        height: 5%;
+    }
+
+
+    main {
+        width: 100%;
+    }
+}

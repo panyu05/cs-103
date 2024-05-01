@@ -1,0 +1,115 @@
+/*The Frozen page's css was created by Ruomu Li*/
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+#page-wrapper{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+header{
+    background-color: #40A2E3;
+    color: #FEF2F4;
+    padding: 2%;
+    text-align: left;
+}
+header p{
+    font-size: calc(10px + 1vw);
+    font-family: "Lucida Handwriting", cursive;
+    padding-bottom: 1%;
+}
+header h1{
+    font-size: calc(20px + 2vw);
+    font-family: "Lucida Handwriting", cursive;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+nav{
+    width:30%;
+    background-color: #1D24CA;
+    padding-left: 0;
+}
+nav ul {
+    padding: 1%;
+}
+nav a {
+    text-decoration: none;
+    color: #1D24CA;
+}
+nav li{
+    display: block;
+    background-color:#97E7E1;
+    text-align: center;
+    border: 3px solid #40A2E3;
+    width: 50%;
+    margin: 10% auto;
+    padding: 4%;
+    font-size: calc(5px + 1vw);
+}
+button{
+    border: 1px solid #FEF2F4;
+    color: #1F2544;
+    background-color: #97E7E1;
+}
+main{
+    width:70%;
+    padding: 5%;
+    background-color: #BED1CF;
+}
+main h3{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: calc(10px + 1vw);
+    color: #1D24CA;
+    text-align: center;
+}
+main p{
+    text-align: left;
+    font-size: calc(5px + 1vw);
+    color: #1F2544;
+    font-family: "Gill Sans", "Noto Sans", sans-serif;
+}
+#img1, #img2{
+    max-width: 100%;
+    padding: 2%;
+    justify-content: center;
+}
+footer{
+    background-color: #40A2E3;
+    padding: 3vh;
+    color: #FEF2F4;
+}
+footer a{
+    text-decoration: none;
+    color: #FEF2F4;
+}
+@media screen and (max-width: 750px){
+    #container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    header{
+        text-align: center;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+    }
+    nav ul{
+        padding: 4% 0;
+    }
+    nav li{
+        display: inline;
+        padding: 2%;
+        margin: 2%;
+    }
+    main{
+        width: 100%;
+    }
+}
+
+

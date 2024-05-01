@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            padding: 5%;
+            text-align: center;
+            font: calc(60px + 1vw) "Gill Sans", "Noto Sans", sans-serif;
+        }
+    </style>
+    <title>lab 11 c | CS-103</title>
+</head>
+<body>
+    <div id="output"></div>
+
+    <script>
+        let today = new Date();
+
+        let day = today.getDate();
+        let month = today.getMonth() + 1;
+        let year = today.getFullYear();
+
+        if (day < 10) {
+            day = '0' + day
+        }
+        if (month < 10) {
+            month = '0' + month
+        }
+
+        let out = document.getElementById("output");
+
+        out.innerHTML = day + "/" + month + "/" + year;
+    </script>
+</body>
+</html>

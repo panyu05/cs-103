@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+
+#whole {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: darksalmon;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+#bar {
+    list-style: none;
+    background-color: #FFE4C9;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    text-align: center;
+    border: #81689D 3px solid;
+    width: 30%;
+}
+
+nav ul{
+    padding-left:0;
+}
+
+.link {
+    display: block;
+    padding: 1%;
+    margin: 20% 10%;
+    border: #81689D 4px solid;
+    background-color: #81689D;
+    font-size: calc(5px + 1vw);
+}
+
+.anchor {
+    text-decoration: none;
+    color: #FFE4C9;
+    font: calc(6px + 1vw) "Gill Sans", Optima, sans-serif;
+}
+
+#halloween {
+    background-color: darkorange;
+    padding: 2%;
+    font: small-caps bold calc(15px + 1vw) luminari, Trattatello, fantasy;
+}
+
+main {
+    height: 100vh;
+    width: 70%;
+}
+
+#three {
+    padding-top: 1%;
+    margin: 4%;
+    font: calc(15px + 1vw) Apple Chancery, "Brush Script MT", cursive
+}
+
+#words {
+    margin: 1%;
+    padding: 0 5%;
+    font: calc(5px + 1vw) "Gill Sans", Optima, sans-serif;
+}
+
+#spooky {
+    border: #FFE4C9 7px solid;
+    width: 70vh;
+    max-width: 85%;
+    margin: 3%;
+}
+
+#credit {
+    background-color: darkorange;
+    padding: 2%;
+    font-family: luminari, Trattatello, fantasy;
+    font-size: calc(5px + 1vw)
+}
+
+@media screen and (max-width: 1000px){
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bar{
+        width: 100%;
+    }
+
+    nav ul{
+        padding: 4%;
+    }
+
+    .anchor{
+        display:inline;
+        margin: 4%;
+        font: calc(6px + 1vw) "Gill Sans", Optima, sans-serif;
+    }
+
+    .link {
+        display: inline;
+        padding: 1%;
+        margin: 1%;
+        border: #81689D 4px solid;
+        background-color: #81689D;
+        font-size: calc(5px + 1vw);
+    }
+
+    main{
+        width: 100%;
+    }
+
+}

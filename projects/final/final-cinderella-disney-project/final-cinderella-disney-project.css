@@ -1,0 +1,180 @@
+/*The Cinderella page's css was created by Yu Pan*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#page-wrapper {
+    width: 80vw;
+    margin: auto;
+    background-color: #DFF5FF;
+}
+
+header {
+    background-color: #378CE7;
+    color: white;
+    text-align: left;
+    font-size:calc(10px + 1vw);
+    padding: 2%;
+}
+
+header h1 {
+    font-family: "Lucida Handwriting", cursive;
+}
+
+#js {
+    text-align: center;
+    margin-top: 1%;
+    font: calc(5px + 1vw) "Gill Sans", "Noto Sans", sans-serif;
+}
+
+#reveal {
+    /*font: small-caps calc(5px + 1vw) "Gill Sans", "Noto Sans", sans-serif;*/
+    margin: 3% 0 1% 0;
+    background-color: white;
+    border: 2px solid white;
+    font: calc(5px + 1vw) "Gill Sans", "Noto Sans", sans-serif;
+}
+
+header h3, header label, header input, header button{
+    font: calc(5px + 1vw) "Gill Sans", "Noto Sans", sans-serif;
+}
+
+header h3 {
+    font: small-caps calc(7px + 1vw) "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+header button {
+    background-color: #DFF5FF;
+    border: 2px solid white;
+    color: #5356FF;
+}
+
+#message {
+    margin: 8%;
+    display: block;
+    color: #5356FF;
+    text-align: center;
+    /*font: small-caps calc(15px + 1vw) "Andale Mono", "DejaVu Sans Mono", monospace;*/
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150vh;
+    visibility: hidden;
+}
+
+#bar {
+    width: 30%;
+    padding-left:0;
+    background-color: #67C6E3;
+}
+
+nav ul {
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.page {
+    display:block;
+    border: 2px solid white;
+    width: 50%;
+    margin: 10% auto;
+    padding: 4%;
+    /*background-color: #5356FF;*/
+    background-color: #DFF5FF;
+    font-size: calc(5px + 1vw);
+    font-weight: bold;
+}
+
+.link {
+    color: #5356FF;
+    text-decoration: none;
+}
+
+main {
+    width: 70%;
+    height: 150vh; /*may need to make more depending on the pictures and if so then add this to the media queries*/
+    background-color: #DFF5FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+main h1 {
+    padding: 1%;
+    font-size:calc(15px + 2vw);
+    text-align: center;
+    color: #5356FF;
+}
+
+main h2, main p{
+    padding: 1%;
+    text-align: center;
+}
+
+main h2 {
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #67C6E3;
+    font-size:calc(10px + 1vw);
+}
+
+main p {
+    font:calc(5px + 1vw) "Gill Sans", "Noto Sans", sans-serif;
+}
+
+main img {
+    max-width: 100%;
+    border: #5356FF 3px solid;
+}
+
+footer {
+    background-color: #378CE7;
+    padding: 2%;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 750px) {
+    header, footer {
+        text-align: center;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bar {
+        width: 100%;
+    }
+
+    nav ul{
+        padding: 4%;
+    }
+
+    .page {
+        margin: 2%;
+        padding: 2%;
+        display:inline;
+    }
+
+    main {
+        width: 100%;
+    }
+}

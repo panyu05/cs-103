@@ -1,0 +1,119 @@
+/*Ruomu Li and Yu Pan worked on the css for the home page*/
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+#page-wrapper{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+}
+header{
+    /*color: #F1FADA;*/
+    background-color: #746bab;
+    color: white;
+    text-align: left;
+    font-size:calc(10px + 1vw);
+    padding: 2%;
+}
+header h1 {
+    font-family: "Lucida Handwriting", cursive;
+}
+header p{
+    color: #fbbe4f;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+nav{
+    background-color: #1ab28a;
+    padding-left: 0;
+    width: 30%;
+}
+nav ul {
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+}
+.page {
+    display:block;
+    border: 2px solid white;
+    width: 50%;
+    margin: 10% auto;
+    padding: 4%;
+    background-color: #F1FADA;;
+    font-size: calc(5px + 1vw);
+    font-weight: bold;
+}
+
+.link {
+    color: #746bab;
+    text-decoration: none;
+}
+
+main{
+    background-color: #fbbe4f;
+    /*padding: 5% 0;*/
+    width:70%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+main img {
+    max-width: 100%;
+    padding: 2%;
+}
+main h3{
+    padding: 5% 0;
+    color: #746bab;
+    font-size:calc(15px + 2vw);
+}
+main p {
+    font:calc(5px + 1vw) "Gill Sans", "Noto Sans", sans-serif;;
+}
+footer{
+    background-color: #746bab;
+    padding: 2%;
+    color: #F1FADA;
+    text-align: left;
+}
+footer a{
+    text-decoration: none;
+    color: #F1FADA;
+}
+@media screen and (max-width: 750px) {
+    header, footer {
+        text-align: center;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bar {
+        width: 100%;
+    }
+
+    nav ul{
+        padding: 4%;
+    }
+
+    .page {
+        margin: 2%;
+        padding: 2%;
+        display:inline;
+    }
+
+    main {
+        width: 100%;
+    }
+    footer {
+        text-align: center;
+    }
+}

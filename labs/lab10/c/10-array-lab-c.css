@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    width:80%;
+    margin:auto;
+    text-align: center;
+    height: 100vh;
+}
+
+label, button{
+    font: calc(6px + 1vw) "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+#input {
+    margin-top: 10%;
+    font: calc(6px + 1vw) "Times New Roman", Didot, Georgia, serif;
+}
+
+#output {
+    padding: 5%;
+    margin-left: 15%;
+    font: calc(8px + 1vw) "Times New Roman", Didot, Georgia, serif;
+    text-align: left;
+}
